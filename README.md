@@ -50,7 +50,7 @@ Experience the power of AI-driven predictions instantly:
 
 | Platform | Link | Status | Features |
 |----------|------|--------|----------|
-| **Streamlit** | [Live App](https://real-time-cryptocurrency-price-prediction.streamlit.app/) | ✅ Active | Full features, instant startup |
+| **Streamlit** | <a href="https://real-time-cryptocurrency-price-prediction.streamlit.app/" target="_blank" rel="noopener noreferrer">**Live App**</a> | ✅ Active | Full features, instant startup |
 | **Render** | [Alternative](https://real-time-cryptocurrency-price-prediction.onrender.com/) | ✅ Active | Backup instance, 24/7 uptime |
 
 > **Note:** Click the links above to see real AI predictions in action! No installation required.
