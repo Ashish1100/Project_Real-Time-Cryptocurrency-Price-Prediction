@@ -92,23 +92,25 @@ Experience the power of AI-driven predictions instantly:
 ### **Prediction Engine**
 
 ```
-╔════════════════════════════════════════════════════════╗
-║                LSTM ARCHITECTURE                       ║
-╠════════════════════════════════════════════════════════╣
-║                                                        ║
-║  Input Layer (60 timesteps)                            ║
-║        ↓                                               ║
-║  LSTM Layer 1 (64 units) + Dropout (20%)               ║
-║        ↓                                               ║
-║  LSTM Layer 2 (64 units) + Dropout (20%)               ║
-║        ↓                                               ║
-║  Dense Layer (32 units, ReLU activation)               ║
-║        ↓                                               ║
-║  Output Layer (1 unit, Linear activation)              ║
-║        ↓                                               ║
-║  Price Prediction (Next N days)                        ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════╗
+║            LSTM NEURAL NETWORK ARCHITECTURE               ║
+╠═══════════════════════════════════════════════════════════╣
+║                                                           ║
+║  Input Layer (60 timesteps of historical data)            ║
+║        ↓                                                  ║
+║  LSTM Layer 1 (64 units) + Dropout (20%)                  ║
+║        ↓                                                  ║
+║  LSTM Layer 2 (64 units) + Dropout (20%)                  ║
+║        ↓                                                  ║
+║  Dense Layer 1 (32 units, ReLU activation)                ║
+║        ↓                                                  ║
+║  Dense Layer 2 (16 units, ReLU activation)                ║
+║        ↓                                                  ║
+║  Output Layer (1 unit, Linear activation)                 ║
+║        ↓                                                  ║
+║  Price Prediction (Next N days forecast)                  ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
 
 ✓ Multi-layer LSTM for complex pattern recognition
 ✓ Dropout regularization prevents overfitting
@@ -118,7 +120,7 @@ Experience the power of AI-driven predictions instantly:
 ✓ Less Complex and faster results
 ```
 
-### **Professional Visualizations**
+### **Visualizations**
 
 ```
 Interactive Chart Features:
@@ -297,16 +299,6 @@ streamlit run cryptocurrency.py
 
 ## **Demo & Screenshots Guide**
 
-### **Recommended GIFs to Create/Add**
-
-| GIF | Description | Tools |
-|-----|-------------|-------|
-| **app-demo.gif** | Full app walkthrough (30s) | ScreenFlow, Camtasia |
-| **prediction-animation.gif** | Real-time prediction generation | Matplotlib animation |
-| **chart-interaction.gif** | Zooming, panning, hovering | Plotly recording |
-| **model-training.gif** | LSTM training progress | TensorFlow visualization |
-| **data-export.gif** | CSV download process | Desktop recording |
-
 ### **Crypto Predict Pro Working Screenshots**
 
 
@@ -434,15 +426,26 @@ The software is provided “as is”, without warranty of any kind.
 <div align="center">
 
 ### **Ashish Saha**
+**Machine Learning Engineer** | **AI Researcher** | **Software Engineer**
 
-**Machine Learning Engineer**
+> Specializing in building intelligent ML systems and transforming data into actionable insights.
 
- Passionate about Data Science, AI and Innovation
+**Tech Stack:** Python • TensorFlow/Keras • PyTorch • XGBoost • Scikit-learn 
 
-[GitHub](https://github.com/Ashish1100) • [LinkedIn](https://www.linkedin.com/in/ashishsaha21/) • [Email](mailto:ashishsaha.softwareemail@email.com)
+<a href="https://github.com/Ashish1100" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="[https://www.linkedin.com/in/ashishsaha21/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:ashishsaha.software@gmail.com">
+  <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email">
+</a>
 
+</div>
 
 ---
+
 
 ## **Project Statistics**
 
@@ -464,7 +467,7 @@ The software is provided “as is”, without warranty of any kind.
 
 <div align="center">
 
-### **Star ⭐ this repo if you found it helpful!**
+### **Star ⭐ this repo if you found this project helpful!**
 
 
 ---
