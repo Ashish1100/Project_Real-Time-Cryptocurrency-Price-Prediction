@@ -115,6 +115,7 @@ Experience the power of AI-driven predictions instantly:
 ✓ ReLU activation captures non-linear relationships
 ✓ Real-time model training & prediction
 ✓ Early stopping for optimal convergence
+✓ Less Complex and faster results
 ```
 
 ### **Professional Visualizations**
