@@ -35,7 +35,7 @@ In the volatile world of cryptocurrency, **timing is everything**. CryptoPredict
 
 ```
 Cryptocurrency Market Facts:
-├─ $2.3 Trillion global market cap (2024)
+├─ $2.9 Trillion global market cap
 ├─ 24/7 trading (no closing bells)
 ├─ Extreme volatility (100%+ swings common)
 ├─ AI-driven trading dominates (≈90% of volume)
