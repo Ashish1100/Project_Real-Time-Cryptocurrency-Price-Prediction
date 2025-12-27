@@ -158,16 +158,17 @@ Chart Capabilities:
 
 **Example Results (Bitcoin):**
 ```
-Test RMSE:    $4,277.15  ⟷  Train: $3,292.63  (5% difference - good!)
-Test MAE:     $3,338.80  ⟷  Train: $2,566.14  (Consistent!)
-Test R²:      0.8632     ⟷  Train: 0.9709     (Explains 86% variance)
-Test MAPE:    3.21%      ⟷  Train: 3.30%      (±3.21% accuracy)
+Test RMSE:    $2,775.64  ⟷  Train: $2,307.90  (20% difference - good)
+Test MAE:     $2,136.42  ⟷  Train: $1,637.27  (30% difference - acceptable)
+Test R²:      0.9305     ⟷  Train: 0.9922     (Explains 93.05% variance)
+Test MAPE:    2.01%      ⟷  Train: 2.92%      (±2.01% accuracy)
 
-✓ Model is not overfitting!
-✓ Predictions typically accurate to within 3%
+✓ Model is not overfitting and shows good generalization.
+✓ Predictions typically accurate within 2%
 ✓ Confidence in out-of-sample predictions: HIGH
-> Performance can be improved by tuning the given parameters.
 ```
+> Performance can be optimized by adjusting Training Epochs, Training Data Period, LSTM Units and Dropout Rate.
+
 
 ---
 
@@ -212,7 +213,7 @@ Slow retraining (days)                Fast retraining (seconds)
 
 ---
 
-## **Project Architecture & Structure**
+## **Project Structure & Architecture**
 
 ### **Directory Structure**
 
@@ -447,7 +448,7 @@ The software is provided “as is”, without warranty of any kind.
 
 | Metric | Value |
 |--------|-------|
-| **Lines of Code** | ~800 |
+| **Lines of Code** | ~900 |
 | **Core Dependencies** | 8 |
 | **Model Layers** | 5 |
 | **Parameters** | 10+ configurable |
