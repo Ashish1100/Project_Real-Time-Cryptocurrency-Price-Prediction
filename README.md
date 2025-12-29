@@ -126,11 +126,11 @@ Price Prediction (Next N days forecast)
 
 ```
 Interactive Chart Features:
-├─ Actual Prices (Blue line) ────────────┐
-├─ Train Predictions (Green dotted) ─────├─ Plotly
-├─ Test Predictions (Orange dotted) ─────├─ Multi-Series
-├─ Future Forecast (Red solid) ──────────├─ Zoomable
-└─ Confidence Bounds (Pink band, ±5%) ───┘─ PNG Export
+├─ Actual Prices (Blue line)
+├─ Train Predictions (Green dotted) 
+├─ Test Predictions (Orange dotted) 
+├─ Future Forecast (Red solid)
+└─ Confidence Bounds (Pink band, ±5%)
 
 Chart Capabilities:
 ✓ Hover tooltips with exact values
