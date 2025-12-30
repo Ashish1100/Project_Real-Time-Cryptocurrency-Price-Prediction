@@ -421,7 +421,7 @@ The software is provided “as is”, without warranty of any kind.
 <div align="center">
 
 ### **Ashish Saha**
-**Machine Learning Research** | **AI Engineering** | **Data Science**
+**AI Engineering** | **ML Research** | **Data Science**
 
 *Specializing in building intelligent ML systems and transforming data into actionable insights.*
 
